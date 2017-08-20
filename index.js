@@ -34,7 +34,7 @@ function processItems(rows) {
     const key = product[constants.productJoinField];
     const formattedProduct = formatJsonToLayout(dataLayout, product);
     if (key in productMap) {
-      productMap[key] = productArrayJoin(formattedProduct, productMap[key]);
+      productMap[key] = productArrayJoin(productMap[key], formattedProduct);
     } else {
       productMap[key] = formattedProduct;
     }

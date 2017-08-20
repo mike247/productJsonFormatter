@@ -8,8 +8,7 @@ Simply run node index.js in the root directory, I was thinking of publishing thi
 Populate the rows.js file in the data folder with required test data
 
 ## Assumptions made
-The productid was unique
-The fields provided are the only fields recieved from the 'api'
+The productid was unique, the fields provided are the only fields recieved from the 'api'
 Probably some more?
 
 ## Things used to help me
